@@ -1,0 +1,65 @@
+class SiteHeader extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <header id="header" class="site-header header-style-1">
+        <nav class="navigation navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="open-btn">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navigation-holder">
+              <button class="close-navbar"><i class="ti-close"></i></button>
+              <ul class="nav navbar-nav">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item menu-item-has-children">
+                  <a href="#">Services</a>
+                  <ul class="sub-menu">
+                    <li><a href="service-single.html">Technical Recruitment</a></li>
+                    <li><a href="oil-gas.html">Field Offshore Personnel</a></li>
+                    <li><a href="logistics.html">Logistics</a></li>
+                    <li><a href="sanitary-plumbing.html">Construction & Maintenance</a></li>
+                    <li><a href="electrical-power.html">Oil & Gas Production</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item menu-item-has-children">
+                  <a href="#">Careers</a>
+                  <ul class="sub-menu">
+                    <li><a href="portfolio.html">Vacancies</a></li>
+                    <li><a href="portfolio-s2.html">Submit Your CV</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item menu-item-has-children">
+                  <a href="#">Case Studies</a>
+                  <ul class="sub-menu">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
+                    <li><a href="blog-fullwidth.html">Blog full width</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="#Level3">Blog single</a>
+                      <ul class="sub-menu">
+                        <li><a href="blog-single.html">Blog single</a></li>
+                        <li><a href="blog-single-left-sidebar.html">Blog single left sidebar</a></li>
+                        <li><a href="blog-single-fullwidth.html">Blog single full width</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    `;
+  }
+}
+
+customElements.define('site-header', SiteHeader);

@@ -9,6 +9,8 @@
 
     <title> Oil and Gas Personnel Limited </title>
     
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+    
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -56,88 +58,8 @@
 
 
         <!-- Start header -->
-        <header id="header" class="site-header header-style-1">
-            <nav class="navigation navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="open-btn">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt></a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse navigation-holder">
-                        <button class="close-navbar"><i class="ti-close"></i></button>
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <!-- <li class="menu-item-has-children">
-                                <a href="#">Pages</a>
-                                <ul class="sub-menu">
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                    <li><a href="testimonials-s2.html">Testimonials style 2</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-single.html">Shop single</a></li>
-                                </ul>
-                            </li> -->
-                            <li class="menu-item-has-children">
-                                <a href="#">Services</a>
-                                <ul class="sub-menu">
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="services-s2.html">Services style 2</a></li>
-                                    <li><a href="service-single.html">Mechanical Engineering</a></li>
-                                    <li><a href="oil-gas.html">Oil And Gas</a></li>
-                                    <li><a href="power-energy.html">Power And Energy</a></li>
-                                    <li><a href="sanitary-plumbing.html">Sanitary & Plumbing</a></li>
-                                    <li><a href="electrical-power.html">Electrical Power</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Careers</a>
-                                <ul class="sub-menu">
-                                    <li><a href="portfolio.html">Projects</a></li>
-                                    <li><a href="portfolio-s2.html">Projects style 2</a></li>
-                                    <li><a href="project-single.html">Project single</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Case Studies</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                    <li><a href="blog-fullwidth.html">Blog full width</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#Level3">Blog single</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-single.html">Blog single</a></li>
-                                            <li><a href="blog-single-left-sidebar.html">Blog single left sidebar</a></li>
-                                            <li><a href="blog-single-fullwidth.html">Blog single full width</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div><!-- end of nav-collapse -->
-
-                    <div class="search-contact">
-                        <ul class="contact">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div><!-- end of container -->
-            </nav>
-        </header>
+        <script src="site-header.js"></script>
+        <site-header></site-header>
         <!-- end of header -->
 
 
@@ -146,40 +68,49 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-6.jpg">
+                            <div class="container">
+                                <div data-swiper-parallax="300" class="slide-title">
+                                    <h2>Global Energy Recruitment Experts</h2>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div data-swiper-parallax="500" class="slide-btns">
+                                    <a href="services.html" class="theme-btn">Our services</a> 
+                                    <a href="about.html" class="theme-btn-s2">More about us</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
                         <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-5.jpg">
                             <div class="container">
                                 <div data-swiper-parallax="300" class="slide-title">
                                     <h2>Global Energy Recruitment Experts</h2>
                                 </div>
-                                <div data-swiper-parallax="400" class="slide-text">
-                                    <p>We are a leading global energy recruitment agency, specializing in connecting talented professionals with top-tier companies in the energy sector.</p>
-                                </div>
                                 <div class="clearfix"></div>
                                 <div data-swiper-parallax="500" class="slide-btns">
                                     <a href="#" class="theme-btn">Our services</a> 
                                     <a href="#" class="theme-btn-s2">More about us</a> 
                                 </div>
                             </div>
-                        </div> <!-- end slide-inner --> 
-                    </div> <!-- end swiper-slide -->
+                        </div>
+                    </div>
 
                     <div class="swiper-slide">
-                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-2.jpg">
+                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-7.jpg">
                             <div class="container">
                                 <div data-swiper-parallax="300" class="slide-title">
                                     <h2>Global Energy Recruitment Experts</h2>
                                 </div>
-                                <div data-swiper-parallax="400" class="slide-text">
-                                    <p>We are a leading global energy recruitment agency, specializing in connecting talented professionals with top-tier companies in the energy sector.</p>
-                                </div>
                                 <div class="clearfix"></div>
                                 <div data-swiper-parallax="500" class="slide-btns">
                                     <a href="#" class="theme-btn">Our services</a> 
                                     <a href="#" class="theme-btn-s2">More about us</a> 
                                 </div>
                             </div>
-                        </div> <!-- end slide-inner --> 
-                    </div> <!-- end swiper-slide -->
+                        </div>
+                    </div>
                 </div>
                 <!-- end swiper-wrapper -->
 
@@ -193,111 +124,14 @@
 
 
         <!-- start about-us-section -->
-        <section class="about-us-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-md-6">
-                        <div class="section-title">
-                            <span>About us</span>
-                            <h2>We set the standards others try to live up to.</h2>
-                        </div>
-                        <div class="details">
-                            <p>It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright</p>
-                            <div class="clearfix">
-                                <ul>
-                                    <li><i class="ti-check"></i> Cut out of an illustrated magazine</li>
-                                    <li><i class="ti-check"></i> Showed a lady fitted out</li>
-                                </ul>
-                                <ul>
-                                    <li><i class="ti-check"></i> Raising a heavy fur muff</li>
-                                    <li><i class="ti-check"></i> Magazine and housed in a nice</li>
-                                </ul>
-                            </div>
-                            <div class="btns">
-                                <a href="#" class="theme-btn">Our Services</a>
-                                <a href="#" class="theme-btn-s3">Contact with us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col col-md-6">
-                        <div class="right-col">
-                            <div class="img-holder">
-                                <img src="assets/images/about.png" alt>
-                            </div>
-                            <div class="video-holder">
-                                <a href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1" class="hero-video-btn video-btn"  data-type="iframe" tabindex="0"><i class="fi flaticon-play-button"></i>Watch our intro video</a> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-        </section>
+        <script src="about-us.js"></script>
+        <about-us></about-us>
         <!-- end about-us-section -->
 
 
         <!-- start service-section -->
-        <section class="service-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-md-6">
-                        <div class="section-title-s2">
-                            <span>Our Industry Solutions</span>
-                            <h2>Delivering the Best Global Industry Services.</h2>
-                        </div>
-                    </div>
-                    <div class="col col-md-6">
-                        <div class="title-text">
-                            <p>Recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="service-grids clearfix">
-                            <div class="grid">
-                                <i class="fi flaticon-gear"></i>
-                                <h4><a href="#">Mechanical Engineering</a></h4>
-                                <p> Samsa was a travelling salesman and above it there hung a picture that he had recently cut out of antrt </p>
-                                <a href="#" class="read-more">Read More <i class="fi flaticon-next"></i></a>
-                            </div>
-                            <div class="grid">
-                                <i class="fi flaticon-expansion"></i>
-                                <h4><a href="#">Sanitary & Plumbing</a></h4>
-                                <p> Samsa was a travelling salesman and above it there hung a picture that he had recently cut out of antrt </p>
-                                <a href="#" class="read-more">Read More <i class="fi flaticon-next"></i></a>
-                            </div>
-                            <div class="grid">
-                                <i class="fi flaticon-oil"></i>
-                                <h4><a href="#">Oil & Gas Production</a></h4>
-                                <p> Samsa was a travelling salesman and above it there hung a picture that he had recently cut out of antrt </p>
-                                <a href="#" class="read-more">Read More <i class="fi flaticon-next"></i></a>
-                            </div>
-                            <div class="grid">
-                                <i class="fi flaticon-pharmacy"></i>
-                                <h4><a href="#">Pharmaceutical Research</a></h4>
-                                <p> Samsa was a travelling salesman and above it there hung a picture that he had recently cut out of antrt </p>
-                                <a href="#" class="read-more">Read More <i class="fi flaticon-next"></i></a>
-                            </div>
-                            <div class="grid">
-                                <i class="fi flaticon-paint-palette"></i>
-                                <h4><a href="#">Painting &Protective</a></h4>
-                                <p> Samsa was a travelling salesman and above it there hung a picture that he had recently cut out of antrt </p>
-                                <a href="#" class="read-more">Read More <i class="fi flaticon-next"></i></a>
-                            </div>
-                            <div class="grid">
-                                <i class="fi flaticon-solar-energy"></i>
-                                <h4><a href="#">Electrical & Power</a></h4>
-                                <p> Samsa was a travelling salesman and above it there hung a picture that he had recently cut out of antrt </p>
-                                <a href="#" class="read-more">Read More <i class="fi flaticon-next"></i></a>
-                            </div>
-                        </div>
-                        <div class="view-all">
-                            <p>Please check out our <a href="#">All Services</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-        </section>
+        <script src="services.js"></script>
+        <services-component></services-component>
         <!-- end service-section -->
 
 
@@ -540,106 +374,6 @@
         </section>
         <!-- end fun-fact-section -->
 
-
-        <!-- start team-section -->
-        <section class="team-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
-                        <div class="section-title-s5">
-                            <span>Our Team</span>
-                            <h2>Dedicated Team</h2>
-                            <p>Hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="team-grids">
-                            <div class="grid">
-                                <div class="img-social">
-                                    <div class="img-holder">
-                                        <img src="assets/images/team/img-1.jpg" alt>
-                                    </div>
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <h3>Michel Jhon</h3>
-                                    <span>Mechanical Engineering</span>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-social">
-                                    <div class="img-holder">
-                                        <img src="assets/images/team/img-2.jpg" alt>
-                                    </div>
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <h3>Wilium Mice</h3>
-                                    <span>Site Manager</span>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-social">
-                                    <div class="img-holder">
-                                        <img src="assets/images/team/img-3.jpg" alt>
-                                    </div>
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <h3>Jonthon teat</h3>
-                                    <span>Testing Manager</span>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-social">
-                                    <div class="img-holder">
-                                        <img src="assets/images/team/img-4.jpg" alt>
-                                    </div>
-                                    <div class="social">
-                                        <ul>
-                                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <h3>Shown kel</h3>
-                                    <span>Cheif Officer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-        </section>
-        <!-- end team-section -->
-
-
         <!-- start quote-section -->
         <section class="quote-section">
             <div class="content-area clearfix">
@@ -785,97 +519,8 @@
 
 
         <!-- start site-footer -->
-        <footer class="site-footer">
-            <div class="upper-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col col-lg-3 col-md-3 col-sm-6">
-                            <div class="widget about-widget">
-                                <div class="logo widget-title">
-                                    <img src="assets/images/footer-logo.png" alt>
-                                </div>
-                                <p>Mikago arm towards the viewer gregor then turned to look out the window at the dull weather</p>
-                                <div class="social-icons">
-                                    <ul>
-                                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                        <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                        <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                        <li><a href="#"><i class="ti-vimeo-alt"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-3 col-md-3 col-sm-6">
-                            <div class="widget link-widget">
-                                <div class="widget-title">
-                                    <h3>Usefull Links</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Our services</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                    <li><a href="#">Meet team</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="#">Provacu Policy</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col col-lg-3 col-md-3 col-sm-6">
-                            <div class="widget contact-widget service-link-widget">
-                                <div class="widget-title">
-                                    <h3>Our Address</h3>
-                                </div>
-                                <ul>
-                                    <li>25/19 Duel aveniew, new Booston town, Ghana</li>
-                                    <li><span>Phone:</span> 84667441</li>
-                                    <li><span>Email:</span> demo@example.com</li>
-                                    <li><span>Office Time:</span> 10AM- 5PM</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col col-lg-3 col-md-3 col-sm-6">
-                            <div class="widget newsletter-widget">
-                                <div class="widget-title">
-                                    <h3>Newsletter</h3>
-                                </div>
-                                <p>You will be notified when somthing new will be appear.</p>
-                                <form>
-                                    <div class="input-1">
-                                        <input type="email" class="form-control" placeholder="Email Address *" required>
-                                    </div>
-                                    <div class="submit clearfix">
-                                        <button type="submit"><i class="ti-email"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end container -->
-            </div>
-            <div class="lower-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="separator"></div>
-                        <div class="col col-xs-12">
-                            <p class="copyright"><a href="templateshub.net">Templates Hub</a></p>
-                            <div class="extra-link">
-                                <ul>
-                                    <li><a href="#">Privace & Policy</a></li>
-                                    <li><a href="#">Terms</a></li>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <script src="footer.js"></script>
+        <footer-component></footer-component>
         <!-- end site-footer -->
 
 
