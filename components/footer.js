@@ -28,16 +28,15 @@ class Footer extends HTMLElement {
                                     <h3>Usefull Links</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Our services</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                    <li><a href="#">Meet team</a></li>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="services.html">Our services</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#">Provacu Policy</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
                                     <li><a href="#">Testimonials</a></li>
                                     <li><a href="#">News</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
                                 </ul>
                             </div>
                         </div>

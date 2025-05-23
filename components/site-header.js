@@ -21,18 +21,16 @@ class SiteHeader extends HTMLElement {
                 <li class="nav-item menu-item-has-children">
                   <a href="#">Services</a>
                   <ul class="sub-menu">
-                    <li><a href="service-single.html">Technical Recruitment</a></li>
-                    <li><a href="oil-gas.html">Field Offshore Personnel</a></li>
+                    <li><a href="technical-recruitment.html">Technical Recruitment</a></li>
+                    <li><a href="field-offshore.html">Field Offshore Personnel</a></li>
                     <li><a href="logistics.html">Logistics</a></li>
-                    <li><a href="sanitary-plumbing.html">Construction & Maintenance</a></li>
-                    <li><a href="electrical-power.html">Oil & Gas Production</a></li>
                   </ul>
                 </li>
                 <li class="nav-item menu-item-has-children">
                   <a href="#">Careers</a>
                   <ul class="sub-menu">
-                    <li><a href="portfolio.html">Vacancies</a></li>
-                    <li><a href="portfolio-s2.html">Submit Your CV</a></li>
+                    <li><a href="vacancies.html">Vacancies</a></li>
+                    <li><a href="submit-cv.html">Submit Your CV</a></li>
                     <li><a href="faq.html">FAQs</a></li>
                   </ul>
                 </li>

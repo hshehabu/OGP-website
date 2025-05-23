@@ -22,18 +22,15 @@ class AboutUs extends HTMLElement {
                                 </ul>
                             </div>
                             <div class="btns">
-                                <a href="#" class="theme-btn">Our Services</a>
-                                <a href="#" class="theme-btn-s3">Contact with us</a>
+                                <a href="services.html" class="theme-btn">Our Services</a>
+                                <a href="contact.html" class="theme-btn-s3">Contact with us</a>
                             </div>
                         </div>
                     </div>
                     <div class="col col-md-6">
                         <div class="right-col">
                             <div class="img-holder">
-                                <img src="assets/images/about.png" alt>
-                            </div>
-                            <div class="video-holder">
-                                <a href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1" class="hero-video-btn video-btn"  data-type="iframe" tabindex="0"><i class="fi flaticon-play-button"></i>Watch our intro video</a> 
+                                <img src="assets/images/about/about.jpg" alt>
                             </div>
                         </div>
                     </div>

@@ -554,21 +554,22 @@
                 },
 
                 email: "required",
-
-                phone: "required",
-                
-                subject: {
-                    required: true
-                }
-
+                mobile: "required",
+                title: "required",
+                "company-website": "required",
+                "company-name": "required",
+                "required-services": "required",
 
             },
 
             messages: {
                 name: "Please enter your name",
                 email: "Please enter your email address",
-                phone: "Please enter your phone number",
-                subject: "Please select your contact subject"
+                mobile: "Please enter your mobile number",
+                title: "Please enter your title",
+                "company-website": "Please enter your company website",
+                "company-name": "Please enter your company name",
+                "required-services": "Please enter your required services",
             },
 
             submitHandler: function (form) {
