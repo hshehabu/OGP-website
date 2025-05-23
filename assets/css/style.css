@@ -1434,7 +1434,7 @@ img {
     position: relative;
   }
   .site-header #navbar > ul > li > .sub-menu > .menu-item-has-children > a:before {
-    font-family: "Poppins", sans-serif;
+    font-family: "themify";
     content: "\e649";
     font-size: 11px;
     font-size: 0.6875rem;
@@ -1482,7 +1482,7 @@ img {
     position: relative;
   }
   .site-header #navbar > ul .menu-item-has-children > a:before {
-    font-family: "Poppins", sans-serif;
+    font-family: "themify";
     content: "\e61a";
     font-size: 11px;
     font-size: 0.6875rem;
