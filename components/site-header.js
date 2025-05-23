@@ -34,21 +34,8 @@ class SiteHeader extends HTMLElement {
                     <li><a href="faq.html">FAQs</a></li>
                   </ul>
                 </li>
-                <li class="nav-item menu-item-has-children">
-                  <a href="#">Case Studies</a>
-                  <ul class="sub-menu">
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                    <li><a href="blog-fullwidth.html">Blog full width</a></li>
-                    <li class="menu-item-has-children">
-                      <a href="#Level3">Blog single</a>
-                      <ul class="sub-menu">
-                        <li><a href="blog-single.html">Blog single</a></li>
-                        <li><a href="blog-single-left-sidebar.html">Blog single left sidebar</a></li>
-                        <li><a href="blog-single-fullwidth.html">Blog single full width</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                <li class="nav-item">
+                  <a href="case-studies.html">Case Studies</a>
                 </li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
