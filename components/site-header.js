@@ -52,6 +52,12 @@ class SiteHeader extends HTMLElement {
                 </li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
+              <div class="social-links">
+                <a href="#" class="social-link"><i class="ti-facebook"></i></a>
+                <a href="#" class="social-link"><i class="ti-twitter"></i></a>
+                <a href="#" class="social-link"><i class="ti-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="ti-instagram"></i></a>
+              </div>
             </div>
           </div>
         </nav>

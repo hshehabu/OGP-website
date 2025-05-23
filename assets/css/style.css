@@ -1353,10 +1353,11 @@ img {
   /* navigation open and close btn hide for width screen */
   /* style for navigation less than 992px */
   /*navbar collaps less then 992px*/
+  transition: background 0.5s;
 }
 
 .site-header .navigation {
-  background-color: #fff;
+  background: transparent;
   margin-bottom: 0;
   border: 0;
   -webkit-border-radius: 0;
@@ -1364,6 +1365,7 @@ img {
   -o-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
+  transition: background 0.3s, box-shadow 0.3s;
 }
 
 .site-header .navigation > .container {
@@ -1678,6 +1680,7 @@ img {
   }
 }
 
+
 @media (max-width: 767px) {
   .site-header .navbar-header .navbar-brand {
     font-size: 24px;
@@ -1757,7 +1760,7 @@ img {
     background: transparent;
   }
   .header-style-1 .navbar-nav, .header-style-2 .navbar-nav, .header-style-3 .navbar-nav {
-    margin-left: 60px;
+    margin-left: 150px;
   }
   .header-style-1 #navbar > ul > li > a, .header-style-2 #navbar > ul > li > a, .header-style-3 #navbar > ul > li > a {
     font-size: 14px;
@@ -1765,7 +1768,7 @@ img {
     font-weight: 500;
     color: #fff;
     padding: 45px 15px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
   }
 }
 
@@ -1788,6 +1791,7 @@ img {
 
 .header-style-1 .navbar-brand, .header-style-2 .navbar-brand, .header-style-3 .navbar-brand {
   align-items: center;
+  vertical-align: middle;
 }
 
 @media (max-width: 991px) {
@@ -1795,7 +1799,8 @@ img {
     margin-top: 0;
     padding-top: 0;
     position: relative;
-    top: -2px;
+    top: 10px;
+    left: -15px;
   }
 }
 
@@ -2863,17 +2868,12 @@ img {
   transition: all 0.7s;
 }
 
-.sticky-on {
-  opacity: 1;
+.site-header .sticky-on {
+  position: fixed;
   top: 0;
-}
-
-.header-style-1 .sticky-header, .header-style-2 .sticky-header, .header-style-3 .sticky-header {
-  background: #000000;
-}
-
-.header-style-2 .sticky-header, .header-style-3 .sticky-header {
-  background: #f0fbff;
+  width: 100%;
+  z-index: 999;
+  background: #000000 !important;
 }
 
 /*--------------------------------------------------------------
@@ -7327,6 +7327,17 @@ img {
   }
 }
 
+@media (min-width: 991px) {
+  .site-header .navbar-header .navbar-brand {
+    margin-top: 40px;     /* Add space from the top */
+    margin-bottom: 8px;  /* Optional: add space below */
+    display: flex;
+    align-items: center; /* Vertically center the logo with the button */
+    height: 40px;        /* Adjust as needed for your logo size */
+  }
+}
+
+
 /* Form Card Styling */
 #cv-submission-form {
   background: #fff;
@@ -7433,3 +7444,55 @@ img {
 #contact-form-main textarea {
     margin-bottom: 0 !important;
 }
+
+.site-header.scrolled .navigation {
+  background: #000 !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Social Links Styling */
+.social-links {
+  display: flex;
+  align-items: center;
+  padding-top: 38px;
+  padding-left: 50px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-left: 8px;
+  color: #333333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.social-link i {
+  font-size: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .social-links {
+      margin: 15px 0;
+      justify-content: center;
+  }
+  
+  .social-link {
+      margin: 0 4px;
+  }
+} 

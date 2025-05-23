@@ -672,10 +672,12 @@
     /*==========================================================================
         WHEN WINDOW SCROLL
     ==========================================================================*/
-    $(window).on("scroll", function() {
 
-		if ($(".site-header").length) {
-            stickyMenu( $('.site-header .navigation'), "sticky-on" );
+    $(window).on("scroll", function() {
+        if ($(window).scrollTop() > 0) {
+            $('.site-header').addClass('scrolled');
+        } else {
+            $('.site-header').removeClass('scrolled');
         }
     });
 
