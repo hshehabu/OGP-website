@@ -6,8 +6,8 @@ class CTA extends HTMLElement {
                 <div class="row">
                     <div class="col col-lg-6 col-md-6">
                         <div class="cta-text">
-                            <h3>Lets Get in Touch!</h3>
-                            <p>Raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.</p>
+                            <h3>Ready to Partner With Us?</h3>
+                            <p>Whether you're looking for skilled personnel for your next project or seeking new opportunities in the oil and gas industry, our team is here to help.</p>
                         </div>
                     </div>
                     <div class="col col-lg-5 col-lg-offset-1 col-md-6">
@@ -15,12 +15,12 @@ class CTA extends HTMLElement {
                             <div>
                                 <i class="fi flaticon-call"></i>
                                 <h4>Call us</h4>
-                                <p>+654894754</p>
+                                <p>+1 (832) 555-0123</p>
                             </div>
                             <div>
                                 <i class="fi flaticon-contact"></i>
                                 <h4>Email us</h4>
-                                <p>demo@example.com</p>
+                                <p>info@ogp.com</p>
                             </div>
                         </div>
                     </div>
