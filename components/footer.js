@@ -13,11 +13,9 @@ class Footer extends HTMLElement {
                                 <p>Oil & Gas Personnel Limited (OGP) is your trusted partner in energy sector recruitment, delivering skilled professionals and comprehensive staffing solutions worldwide.</p>
                                 <div class="social-icons">
                                     <ul>
-                                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                        <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                        <li><a href="#"><i class="ti-youtube"></i></a></li>
                                         <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                        <li><a href="#"><i class="ti-vimeo-alt"></i></a></li>
+                                        <li><a href="#"><i class="ti-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -82,8 +80,8 @@ class Footer extends HTMLElement {
                                 <ul>
                                     <li><a href="#">Privace & Policy</a></li>
                                     <li><a href="#">Terms</a></li>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
                                 </ul>
                             </div>
                         </div>
