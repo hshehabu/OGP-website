@@ -44,9 +44,9 @@ class Footer extends HTMLElement {
                                     <h3>Our Address</h3>
                                 </div>
                                 <ul>
-                                    <li>25/19 Duel aveniew, new Booston town, Ghana</li>
-                                    <li><span>Phone:</span> 84667441</li>
-                                    <li><span>Email:</span> demo@example.com</li>
+                                    <li>25/19 Duel aveniew, new Booston town, Houston, Texas, USA</li>
+                                    <li><span>Phone:</span> +1 (832) 555-0123</li>
+                                    <li><span>Email:</span> info@ogp.com</li>
                                     <li><span>Office Time:</span> 10AM- 5PM</li>
                                 </ul>
                             </div>
