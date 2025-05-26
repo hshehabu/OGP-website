@@ -1943,7 +1943,7 @@ img {
     border-right: 1px solid #dbe3e6;
   }
   .header-style-2 .navigation, .header-style-3 .navigation {
-    background-color: #f0fbff;
+    background-color: #F7F7F7;
   }
 }
 
@@ -2317,18 +2317,6 @@ img {
   height: 100vh;
 }
 
-@media (max-width: 991px) {
-  .hero-style-1 {
-    height: 600px;
-  }
-}
-
-@media (max-width: 767px) {
-  .hero-style-1 {
-    height: 500px;
-  }
-}
-
 @media screen and (min-width: 992px) {
   .hero-style-1 .container {
     padding-top: 95px;
@@ -2370,6 +2358,10 @@ img {
   .hero-style-1 .slide-title h2 {
     font-size: 35px;
     font-size: 2.1875rem;
+    text-align: left;
+  }
+  .hero-style-1 .slide-btns {
+    text-align: left;
   }
 }
 
@@ -2880,7 +2872,7 @@ img {
 #0.6	about-us-section
 --------------------------------------------------------------*/
 .about-us-section {
-  background: #f0fbff;
+  background: #F7F7F7;
   position: relative;
 }
 
@@ -3236,9 +3228,9 @@ img {
 #0.9	testimonials-section
 --------------------------------------------------------------*/
 .testimonials-section {
-  background-color: #f0fbff;
+  background-color: #F7F7F7;
   position: relative;
-  padding-top: 110px;
+  padding: 110px 0;
 }
 
 @media (max-width: 991px) {
@@ -3263,107 +3255,94 @@ img {
   top: 0;
 }
 
-.testimonials-section .testimonial-grids img {
-  width: auto;
-}
-
 .testimonials-section .testimonial-grids {
-  padding-left: 60px;
+  padding: 0;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-@media (max-width: 991px) {
-  .testimonials-section .testimonial-grids {
-    padding-left: 0;
-  }
+.testimonials-section .grid {
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  margin: 15px;
 }
 
 .testimonials-section .grid .fi:before {
-  font-size: 60px;
-  font-size: 3.75rem;
+  font-size: 40px;
+  font-size: 2.5rem;
   color: #C9A14D;
   display: block;
-  padding-left: 3px;
-  margin: 1em 0 0.3em;
-}
-
-@media (max-width: 991px) {
-  .testimonials-section .grid .fi:before {
-    font-size: 50px;
-    font-size: 3.125rem;
-    margin: 0 0 0.3em;
-  }
-}
-
-@media (max-width: 767px) {
-  .testimonials-section .grid .fi:before {
-    font-size: 40px;
-    font-size: 2.5rem;
-  }
+  margin: 0 0 0.5em;
 }
 
 .testimonials-section .quote p {
-  font-size: 19px;
-  font-size: 1.1875rem;
-  color: #000000;
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: #333;
   font-style: italic;
-}
-
-@media (max-width: 767px) {
-  .testimonials-section .quote p {
-    font-size: 16px;
-    font-size: 1rem;
-  }
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .testimonials-section .client-info {
-  margin-top: 35px;
+  margin-top: 25px;
   position: relative;
   padding-left: 75px;
   height: 65px;
+  display: flex;
+  align-items: center;
 }
 
 .testimonials-section .client-info .img-holder {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .testimonials-section .client-info .img-holder img {
   border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 
 .testimonials-section .client-info h5 {
   font-size: 16px;
   font-size: 1rem;
   margin: 0 0 0.3em;
-  padding: 0.8em 0 0;
-}
-
-@media (max-width: 767px) {
-  .testimonials-section .client-info h5 {
-    font-size: 14px;
-    font-size: 0.875rem;
-  }
+  color: #333;
 }
 
 .testimonials-section .client-info p {
-  font-size: 12px;
-  font-size: 0.75rem;
+  font-size: 13px;
+  font-size: 0.8125rem;
   margin: 0;
-  line-height: 1.7em;
+  line-height: 1.5;
+  color: #666;
 }
 
 .testimonials-section .owl-theme .owl-controls {
-  margin-top: 25px;
-  text-align: left;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.testimonials-section .owl-theme .owl-dots .owl-dot {
+  margin: 0 5px;
 }
 
 .testimonials-section .owl-theme .owl-dots .owl-dot span {
   background: #a6b5c0;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
 }
 
 .testimonials-section .owl-theme .owl-dots .owl-dot.active span {
   background: #C9A14D;
+  transform: scale(1.2);
 }
 
 @media (max-width: 991px) {
@@ -3727,7 +3706,7 @@ img {
 #1.4	quote-section
 --------------------------------------------------------------*/
 .quote-section, .quote-section-s2 {
-  background-color: #f0fbff;
+  background-color: #F7F7F7;
 }
 
 .quote-section .left-col, .quote-section-s2 .left-col {
@@ -4574,7 +4553,7 @@ img {
 #3.2	testimonials-section-s2
 --------------------------------------------------------------*/
 .testimonials-section-s2 {
-  background-color: #f0fbff;
+  background-color: #F7F7F7;
   padding-bottom: 40px;
   position: relative;
 }
@@ -7495,4 +7474,209 @@ img {
   .social-link {
       margin: 0 4px;
   }
+}
+
+/*--------------------------------------------------------------
+# Case Studies Section
+--------------------------------------------------------------*/
+.blog-pg-section.blog-pg-left-sidebar {
+    padding: 100px 0;
+}
+
+.blog-pg-section .blog-content {
+    margin-right: 0;
+}
+
+.blog-pg-section .post {
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog-pg-section .entry-media {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-pg-section .entry-media img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.blog-pg-section .post:hover .entry-media img {
+    transform: scale(1.1);
+}
+
+.blog-pg-section .entry-content {
+    padding: 30px;
+}
+
+.blog-pg-section .entry-meta {
+    margin-bottom: 15px;
+}
+
+.blog-pg-section .entry-meta li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.blog-pg-section .entry-meta li i {
+    color: #C9A14D;
+    margin-right: 5px;
+}
+
+.blog-pg-section .entry-meta li a {
+    color: #777;
+    transition: all 0.3s ease;
+}
+
+.blog-pg-section .entry-meta li a:hover {
+    color: #C9A14D;
+}
+
+.blog-pg-section .post h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.blog-pg-section .post h3 a {
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.blog-pg-section .post h3 a:hover {
+    color: #C9A14D;
+}
+
+.blog-pg-section .post p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.blog-pg-section .theme-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #C9A14D;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.blog-pg-section .theme-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.blog-pg-section .post-slider {
+    position: relative;
+}
+
+.blog-pg-section .post-slider img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.blog-pg-section .testimonial {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.blog-pg-section .testimonial blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.blog-pg-section .testimonial blockquote h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.blog-pg-section .testimonial blockquote p {
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+}
+
+.blog-pg-section .pagination-wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.blog-pg-section .pg-pagination {
+    display: inline-block;
+}
+
+.blog-pg-section .pg-pagination li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.blog-pg-section .pg-pagination li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+
+.blog-pg-section .pg-pagination li.active a,
+.blog-pg-section .pg-pagination li a:hover {
+    background: #C9A14D;
+    border-color: #C9A14D;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .blog-pg-section.blog-pg-left-sidebar {
+        padding: 80px 0;
+    }
+    
+    .blog-pg-section .entry-media img {
+        height: 350px;
+    }
+    
+    .blog-pg-section .post h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-pg-section.blog-pg-left-sidebar {
+        padding: 60px 0;
+    }
+    
+    .blog-pg-section .entry-media img {
+        height: 300px;
+    }
+    
+    .blog-pg-section .entry-content {
+        padding: 20px;
+    }
+    
+    .blog-pg-section .post h3 {
+        font-size: 18px;
+    }
+    
+    .blog-pg-section .testimonial {
+        padding: 30px;
+    }
+    
+    .blog-pg-section .testimonial blockquote h3 {
+        font-size: 20px;
+    }
 }

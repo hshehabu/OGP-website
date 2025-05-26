@@ -12,12 +12,7 @@ class Testimonial extends HTMLElement {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col col-md-4">
-                        <div class="testimonial-left-img-holder">
-                            <img src="assets/images/testimonials/man.png" alt>
-                        </div>
-                    </div>
-                    <div class="col col-md-8">
+                    <div class="col col-lg-10 col-lg-offset-1">
                         <div class="testimonial-grids testimonial-slider clearfix">
                             <div class="grid">
                                 <div class="quote">
