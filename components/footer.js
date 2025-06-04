@@ -44,10 +44,13 @@ class Footer extends HTMLElement {
                                     <h3>Our Address</h3>
                                 </div>
                                 <ul>
-                                    <li>25/19 Duel aveniew, new Booston town, Houston, Texas, USA</li>
-                                    <li><span>Phone:</span> +1 (832) 555-0123</li>
-                                    <li><span>Email:</span> info@ogp.com</li>
-                                    <li><span>Office Time:</span> 10AM- 5PM</li>
+                                    <li class="contact-list-item"><span class="contact-icon"><i class="ti-location-pin"></i></span><span class="contact-text">No 5, Navarino Court Apt 14 <br>Trejqet Luzju<br>Sliema, SLM 1741<br>Malta</span></li>
+                                    <li class="contact-list-item"><span class="contact-icon"><i class="ti-email"></i></span><span class="contact-text"><a href="mailto:info@ogp.com.mt">info@ogp.com.mt</a></span></li>
+                                    <li class="contact-list-item"><span class="contact-icon"><i class="ti-mobile"></i></span><span class="contact-text"><a href="tel:+35699170030">+356 99170030</a></span></li>
+                                    <li class="contact-list-item">
+                                        <span class="contact-icon"><i class="ti-id-badge"></i></span>
+                                        <span class="contact-text">Company Registration Number: C 76098</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -78,7 +81,7 @@ class Footer extends HTMLElement {
                             <p class="copyright"><a href="templateshub.net">Templates Hub</a></p>
                             <div class="extra-link">
                                 <ul>
-                                    <li><a href="#">Privace & Policy</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
                                     <li><a href="#">Terms</a></li>
                                     <li><a href="about.html">About us</a></li>
                                     <li><a href="faq.html">FAQ</a></li>

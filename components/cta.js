@@ -15,12 +15,12 @@ class CTA extends HTMLElement {
                             <div>
                                 <i class="fi flaticon-call"></i>
                                 <h4>Call us</h4>
-                                <p>+1 (832) 555-0123</p>
+                                <p>+356 99170030</p>
                             </div>
                             <div>
                                 <i class="fi flaticon-contact"></i>
                                 <h4>Email us</h4>
-                                <p>info@ogp.com</p>
+                                <p>info@ogp.com.mt</p>
                             </div>
                         </div>
                     </div>
