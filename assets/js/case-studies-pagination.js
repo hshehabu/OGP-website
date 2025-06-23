@@ -17,20 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 2,
-            image: null,
-            alt: null,
-            date: '28 Dec 2023',
-            category: 'Testimonial',
-            comments: 0,
-            title: '"OGP\'s expertise in oil and gas recruitment has been instrumental in our project\'s success"',
-            content: 'Their understanding of industry requirements and ability to source qualified personnel has made them our preferred recruitment partner for all major projects.',
-            hasImage: false,
-            isSlider: false,
-            isVideo: false,
-            isTestimonial: true
-        },
-        {
-            id: 3,
             image: ['assets/images/case-studies/image-2.jpg', 'assets/images/case-studies/image-3.jpg', 'assets/images/case-studies/image-5.jpg'],
             alt: 'LNG Terminal',
             date: '05 Jan 2024',
@@ -44,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             isTestimonial: false
         },
         {
-            id: 4,
+            id: 3,
             image: ['assets/images/case-studies/image-6.jpg', 'assets/images/case-studies/image-7.jpg', 'assets/images/case-studies/image-8.jpg', 'assets/images/case-studies/image-9.jpg'],
             alt: 'Offshore Facilities Operation',
             date: '12 Feb 2024',
