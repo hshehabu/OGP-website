@@ -149,6 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 currentPage--;
                 renderCaseStudies();
                 renderPagination();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         }
         paginationList.appendChild(prevLi);
@@ -163,6 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 currentPage = i;
                 renderCaseStudies();
                 renderPagination();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
             
             paginationList.appendChild(pageLi);
@@ -180,6 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 currentPage++;
                 renderCaseStudies();
                 renderPagination();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         }
         paginationList.appendChild(nextLi);
