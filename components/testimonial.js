@@ -39,7 +39,7 @@ class Testimonial extends HTMLElement {
                                         <img src="assets/images/testimonials/img-2.jpg" alt>
                                     </div>
                                     <div class="details">
-                                        <h5>Sarah Martinez</h5>
+                                        <h5>Michael Chen</h5>
                                         <p>HR Director, Major Refinery</p>
                                     </div>
                                 </div>
@@ -47,15 +47,15 @@ class Testimonial extends HTMLElement {
                             <div class="grid">
                                 <div class="quote">
                                     <i class="fi flaticon-quote"></i>
-                                    <p>"The team at OGP has consistently delivered exceptional service in managing our personnel requirements across multiple international projects. Their expertise in handling work permits and compliance has been invaluable to our operations. A truly reliable partner in the industry."</p>
+                                    <p>"OGP provided us with highly qualified offshore personnel for our Bluestream projects. Their expertise with work permits and commitment to safety made a real difference. We value their professionalism and reliability as a partner in the Netherlands."</p>
                                 </div>
                                 <div class="client-info">
                                     <div class="img-holder">
                                         <img src="assets/images/testimonials/img-3.jpg" alt>
                                     </div>
                                     <div class="details">
-                                        <h5>Michael Chen</h5>
-                                        <p>Project Manager, International Operations</p>
+                                        <h5>Fecco</h5>
+                                        <p>Project Manager, Bluestream Offshore B.V.</p>
                                     </div>
                                 </div>
                             </div>
