@@ -59,7 +59,6 @@ class Footer extends HTMLElement {
                                 <div class="widget-title">
                                     <h3>Newsletter</h3>
                                 </div>
-                                <p>You will be notified when somthing new will be appear.</p>
                                 <form>
                                     <div class="input-1">
                                         <input type="email" class="form-control" placeholder="Email Address *" required>
