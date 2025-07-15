@@ -23,7 +23,7 @@ class AboutUs extends HTMLElement {
                             </div>
                             <div class="btns">
                                 <a href="services.html" class="theme-btn">Our Services</a>
-                                <a href="contact.html" class="theme-btn-s3">Contact with us</a>
+                                <a href="contact.html" class="theme-btn-s3">Contact us</a>
                             </div>
                         </div>
                     </div>
