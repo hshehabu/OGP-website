@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'Offshore Drilling',
             comments: 3,
             title: 'Successful Deployment of Offshore Drilling Team in North Sea Project',
-            content: 'OGP successfully recruited and deployed a complete offshore drilling team for a major North Sea project. Our team sourced and placed 25 specialized personnel including drilling supervisors, toolpushers, and roustabouts, ensuring all certifications and safety requirements were met. The project was completed on schedule with zero safety incidents.',
+            content: 'OGP successfully recruited and deployed a complete offshore drilling team for a major North Sea project. Our team sourced and placed 25 specialised personnel including drilling supervisors, toolpushers, and roustabouts, ensuring all certifications and safety requirements were met. The project was completed on schedule with zero safety incidents.',
             hasImage: true,
             isSlider: false,
             isVideo: false,

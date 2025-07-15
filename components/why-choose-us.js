@@ -28,7 +28,7 @@ class WhyChooseUs extends HTMLElement {
                             <div class="grid">
                                 <i class="fi flaticon-chip"></i>
                                 <h3>Field Operations</h3>
-                                <p>Skilled offshore personnel including drilling supervisors, toolpushers, and specialized technicians.</p>
+                                <p>Skilled offshore personnel including drilling supervisors, toolpushers, and specialised technicians.</p>
                             </div>
                             <div class="grid">
                                 <i class="fi flaticon-24-hours"></i>

@@ -12,7 +12,7 @@ class Services extends HTMLElement {
                     </div>
                     <div class="col col-md-6">
                         <div class="title-text">
-                            <p>We provide specialized recruitment and staffing solutions across various industrial sectors, ensuring you have the right talent for your projects.</p>
+                            <p>We provide specialised recruitment and staffing solutions across various industrial sectors, ensuring you have the right talent for your projects.</p>
                         </div>
                     </div>
                 </div>
